@@ -77,8 +77,10 @@ You are welcome to share any suggestions or submit a pull request (PR) to add fe
 email: jack9603301@qhjack.top
 
 ## Donate
-This project was developed based on personal needs, but if you would like to make a personal donation, please feel free to contact me.
-my email address is jack9603301@qhjack.top
+This project was developed based on personal needs. If you would like to make a personal donation, please feel free to contact me.
+You can use the GitHub donation button to contribute, or contact me directly for customized payment options and bank account details to send a tip or donation.
+
+My email address is jack9603301@qhjack.top.
 
 However, I only accept donations made in fiat currency. once the donation is complete, the funds are treated as personal income. 
 If you would like to offer support, please feel free to contact me to make a donation—you could even just buy me a coffee.
