@@ -9,10 +9,10 @@ add_executable(dynamic_fan_control ${SOURCES})
 
 target_include_directories(dynamic_fan_control PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_BINARY_DIR}/generated
     ${Boost_INCLUDE_DIRS}
     ${yaml-cpp_INCLUDE_DIRS}
-    ${SENSORS_INCLUDE_DIR}
-    ${CMAKE_BINARY_DIR}/generated
+    ${SENSORS_INCLUDE_DIR} 
 )
 
 target_link_libraries(dynamic_fan_control PRIVATE
