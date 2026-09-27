@@ -27,7 +27,7 @@ target_link_libraries(dynamic_fan_control PRIVATE
 message(STATUS "Version: ${PROJECT_VERSION}")
 
 find_package(Git QUIET)
-if (GIT_FOUND AND EXISTS "${CMAKE_SOURCE_DIR}/.git")
+if(GIT_FOUND AND EXISTS "${CMAKE_SOURCE_DIR}/.git")
     execute_process(
         COMMAND ${GIT_EXECUTABLE} rev-parse --short HEAD
         WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
