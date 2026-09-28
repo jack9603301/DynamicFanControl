@@ -55,7 +55,6 @@ make install
 ```
 
 对于调试版本，我们建议启用 `ENABLE_CLANGD` 选项；这将生成用于 LSP 解析的 `compile_commands.json` 文件，从而帮助您的 IDE（如 Neovim）定位代码符号定义。
-
 编译选项说明如下：
 
 - CMAKE_INSTALL_PREFIX：程序的安装路径。对于源码安装，通常设为 `/usr`。
@@ -70,8 +69,8 @@ make install
 ## 获取社区帮助
 
 这是一个个人业余项目，如有需要，欢迎提交 Issue 或直接联系我。我会尽力尽快回复，但请勿期望能立即得到答复。
-
 如果您希望提供对新设备的支持或者有更好的建议，欢迎您提出建议，或提交 Pull Request (PR) 以添加您认为有价值的功能。
+你也可以直接在issues或者提出github讨论话题来启动社区讨论和建议。
 
 邮箱：jack9603301@qhjack.top
 

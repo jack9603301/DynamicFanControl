@@ -55,7 +55,6 @@ make install
 ```
 
 For debug builds, we recommend enabling the `ENABLE_CLANGD` option; this generates a `compile_commands.json` file for LSP parsing, which helps your IDE (such as Neovim) locate code symbol definitions.
-
 The explanations for the compilation options are as follows:
 
 - CMAKE_INSTALL_PREFIX: The installation path for this program. for source-based installations, it is typically `/usr`.
@@ -70,9 +69,9 @@ The explanations for the compilation options are as follows:
 ## Get help from the community
 
 This is a personal hobby project, feel free to open issues or contact me directly for assistance. While I strive to respond as quickly as possible, please do not expect an immediate reply.
-
 I may not be able to provide support for every scenario, as the software was created solely to handle server fan control and noise reduction. 
 You are welcome to share any suggestions or submit a pull request (PR) to add features you find valuable.
+You can also initiate community discussions and suggestions directly via GitHub issues or by starting a discussion topic.
 
 email: jack9603301@qhjack.top
 
